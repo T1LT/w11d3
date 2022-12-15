@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import MCQ from "./MCQ";
 import CR from "./CR";
+import "./survey.css";
 
 function Survey() {
   const [data, setData] = useState(require("../_assets/sample.json"));
