@@ -10,12 +10,12 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <Navbar/>
-      <Route exact path={"/"} component={Homepage}/>
-      <Route exact path={"/survey"} component={Survey}/>
-      <Route exact path={"/report"} component={Report}/>
-      <Route exact path={"/sensory"} component={SensoryPreferences}/>
-      <Footer/>
+      <Navbar />
+        <Route exact path={"/"} component={Homepage} />
+        <Route exact path={"/survey"} component={Survey} />
+        <Route exact path={"/report"} component={Report} />
+        <Route exact path={"/sensory"} component={SensoryPreferences} />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.sub-header {
+  margin-top: 30px;
+}
+
+.header > img {
+  height: 175px;
+}
+
+.ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navlink {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 33px;
+  background-color: grey;
+  margin-right: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+  border-color: black;
+  background-color: rgb(36, 36, 36);
+}
